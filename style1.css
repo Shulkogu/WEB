@@ -1,0 +1,116 @@
+select{
+    width: 100%;
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #ffffff;
+    color: #333;
+    }
+body{
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    }
+input[type="text"]{
+    width: 100%;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 16px;
+    color: #333;
+    background: #ccd5d5;
+    }
+input[type="password"]{
+    width: 100%;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 16px;
+    color: #333;
+    background: #ccd5d5;
+    }
+select:focus{
+    border-color: #aaa;
+    border: 10px;    
+    }
+input[type="text"]:focus{
+    border-color: #aaa;
+    border: 10px; 
+    }
+input[type=textarea]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #333;
+    }
+input[type=button]{
+    width: 50%;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 10px;
+    color: #333;
+    }
+input[type=submit]{
+    width: 50%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(7, 188, 7);
+    }
+input[type=reset]{
+    width: 50%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 5, 5);
+}
+
+header{
+    width: 100%;
+    text-align: right;
+    }
+
+#header-links{
+    width: 100%;
+    background-color: #333;
+    padding: 5px 0px 5px 5px;
+    border-radius: 5px;
+    }
+
+.bandeau{
+    color:white;
+    text-decoration: none;
+}
+
+#flottant-fournisseur{
+    float:left;
+    padding: 10px;
+    display: inline;
+}
+
+#flottant-formulaire{
+    float:right;
+    padding: 10px;
+    display: inline;
+}
+
+.fieldset{
+    border: 1px solid rgb(35, 35, 35);
+    border-radius: 5px;
+    }
+/*
+bleu : add8e6
+vert : 3cdc8d
+*/
